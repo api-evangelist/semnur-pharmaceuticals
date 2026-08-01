@@ -1,23 +1,59 @@
 aid: semnur-pharmaceuticals
 name: Semnur Pharmaceuticals
-description: Semnur Pharmaceuticals is a company surfaced as a portfolio company of canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Semnur Pharmaceuticals, Inc. is a clinical-stage biopharmaceutical company developing non-opioid
+  pain-management therapies. Its lead program, SP-102 (SEMDEXA), is a novel, non-opioid, preservative-free
+  and particulate-free injectable corticosteroid gel formulation intended to treat moderate-to-severe chronic
+  radicular pain (sciatica). Semnur is a subsidiary of Scilex Holding Company and is headquartered in the
+  San Francisco Bay Area, California. As a pharmaceutical R&D company it publishes a corporate website,
+  investor presentation, and scientific publications, but exposes no public developer API, documentation,
+  or SDK surface.
 url: https://raw.githubusercontent.com/api-evangelist/semnur-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
+x-parent: Scilex Holding Company
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Pharmaceuticals
+- Biopharmaceutical
+- Healthcare
+- Pain Management
+- Non-Opioid
+- Clinical Stage
+- Life Sciences
+image: https://semnurpharma.com
 apis: []
+common:
+- type: Website
+  url: https://semnurpharma.com
+- type: Publications
+  url: https://semnurpharma.com/publications/
+- type: Presentation
+  url: https://semnurpharma.com/presentation/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
